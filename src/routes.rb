@@ -1,8 +1,7 @@
-require './graph'
-require './floyd'
+require_relative './graph'
+require_relative './floyd'
 
 class Routes
-
   attr_reader :graph, :routes
   attr_reader :from, :to, :stops, :max_stops
   attr_reader :direct, :e_stops, :all_routes, :max_length
