@@ -1,4 +1,4 @@
-require './routes'
+require './src/routes'
 
 ribs   = []
 
